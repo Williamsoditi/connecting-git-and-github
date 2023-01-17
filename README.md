@@ -44,19 +44,19 @@ GitHub is a website and cloud-based service that helps developers store and mana
 10. Pull Requests
     > These are hearts of collaborations. With a pull request you are proposing that your changes should be merged with the main branch from your branch..
 
-    ### Creating a New Branch
-    ```
-    git branch <Branch name>
+### Creating a New Branch
+```
+git branch <Branch name>
 
-    ```
-    ### switching to another branch that does not exitst specifying it shoud be created using -b
-    ```
-    git checkout -b <branch name>
-    ```
-    ### switching to an already existing branch
-    ```
-    git checkout <branch name>
-    ```
+```
+### switching to another branch that does not exitst specifying it shoud be created using -b
+```
+git checkout -b <branch name>
+```
+### switching to an already existing branch
+```
+git checkout <branch name>
+```
 
     
 ## Softwares You Need and how to download them
