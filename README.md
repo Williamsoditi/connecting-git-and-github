@@ -100,7 +100,7 @@ git checkout <branch name>
     4. live server
     5. bracket pair colorizer
     6. js ES6 snippet
-    7. lice share extension
+    7. live share extension
 
 ## Creating a Github Account
 + if you have not sign-up proceed to this url [Github signup webpage](https://github.com/join)
@@ -116,7 +116,7 @@ if you were able to verify email address, continue below
  2. Type <code>git config --global user.name</code> + <code>Space</code> + your name and press <code>Enter</code>. (**Note** _this should be your full name, not your GitHub username, in quotes_)
  3. <code>Type git config --global user.email</code> + <code>Space</code> + the email address you used to sign up to GitHub and press <code>Enter</code>
  4. Type <code>git config --global init.defaultBranch main</code> to update the default branch name to **_main_**
- 5. Type <code>ssh-keygen and press</code> <code>Enter</code>. For each prompt do not type anything, just continue to press <code><Enter></code>. It's particularly important that you do not enter a passphase; you should leave the passphrase empty when prompted.
+ 5. Type <code>ssh-keygen and press</code> <code>Enter</code>.For each prompt do not type anything, just continue to press <code>Enter</code>. It's particularly important that you do not enter a passphase; you should leave the passphrase empty when prompted.
  6. Type <code>cat ~/.ssh/id_rsa.pub | clip.exe</code> and press <code>Enter</code>. This will copy your SSH key to your clipboard
  7. Open the [Github New SSH key form ](https://github.com/settings/ssh/new) (**_NOTE_**: You need to be logged in to access this link)
  8. Type _"My personal PC"_ in the "Title" input field
