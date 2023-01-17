@@ -111,17 +111,17 @@ if you were able to verify email address, continue below
 ## Configure Git and GitHub
 [Git](https://git-scm.com/download/linux) is the tool we use to download and upload our code online. To use Git without signing every time, you need to create a Secure Shell (SSH) key and associate that to your GitHub account.
 #### **_Follow the steps below and everything will be done:_**
-> Steps 
-> 1. Open the terminal in your vsCode or gitbash in windows or press <code>ctrl + `</code> on linux
-> 2. Type <code>git config --global user.name</code> + <code><Space></code> + your name and press <code>Enter</code>. (**Note** _this should be your full name, not your GitHub username, in quotes_)
-> 3. <code>Type git config --global user.email</code> + <code><Space></code> + the email address you used to sign up to GitHub and press <code>Enter</code>
-> 4. Type <code>git config --global init.defaultBranch main</code> to update the default branch name to **_main_**
-> 5. Type <code>ssh-keygen and press</code> <code>Enter</code>. For each prompt do not type anything, just continue to press <code><Enter></code>. It's particularly important that you do not enter a passphase; you should leave the passphrase empty when prompted.
-> 6. Type <code>cat ~/.ssh/id_rsa.pub | clip.exe</code> and press <code>Enter</code>. This will copy your SSH key to your clipboard
-> 7. Open the [Github New SSH key form ](https://github.com/settings/ssh/new) (**_NOTE_**: You need to be logged in to access this link)
-> 8. Type _"My personal PC"_ in the "Title" input field
-> 9. Paste what's on your clipboard from step six in the "Key" input field
-> 10. Click "**Add SSH Key**"
+ > ### Steps 
+ 1. Open the terminal in your vsCode or gitbash in windows or press <code>ctrl + `</code> on linux
+ 2. Type <code>git config --global user.name</code> + <code>Space</code> + your name and press <code>Enter</code>. (**Note** _this should be your full name, not your GitHub username, in quotes_)
+ 3. <code>Type git config --global user.email</code> + <code>Space</code> + the email address you used to sign up to GitHub and press <code>Enter</code>
+ 4. Type <code>git config --global init.defaultBranch main</code> to update the default branch name to **_main_**
+ 5. Type <code>ssh-keygen and press</code> <code>Enter</code>. For each prompt do not type anything, just continue to press <code><Enter></code>. It's particularly important that you do not enter a passphase; you should leave the passphrase empty when prompted.
+ 6. Type <code>cat ~/.ssh/id_rsa.pub | clip.exe</code> and press <code>Enter</code>. This will copy your SSH key to your clipboard
+ 7. Open the [Github New SSH key form ](https://github.com/settings/ssh/new) (**_NOTE_**: You need to be logged in to access this link)
+ 8. Type _"My personal PC"_ in the "Title" input field
+ 9. Paste what's on your clipboard from step six in the "Key" input field
+ 10. Click "**Add SSH Key**"
 
 If you see your new SSH key beneath the "SSH keys" heading You have finally managed to configure your github...
 
